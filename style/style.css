@@ -134,11 +134,7 @@ footer div.social ul li{
     margin: 0 0.8vw 1.5vw 0;
     font-size: 2vw;
 }
-footer div.social{
-    font-size: 1.2rem;
-}
 footer div.contato {
-    font-size: 1.2rem;
     line-height: 140%;
 }
 footer div.contato h2{
@@ -151,5 +147,4 @@ footer div.contato p span{
 footer div.home ul li{
     margin: 0 0 1.4vw 0;
     text-align: right;
-    font-size: 1.1rem;
 }
