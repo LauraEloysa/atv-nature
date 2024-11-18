@@ -34,7 +34,7 @@ header nav ul li a.menu-atual{
     border-radius: 15px;
 }
 /*==============================================
-                    Conteúdp
+                    ConteúdO
 ==============================================*/
 section.banner{
     padding: 23vw 7vw 15vw  7vw;
@@ -48,4 +48,109 @@ section.banner h2{
     width: 50%;
     padding: 10px 20px 10px 20px;
     line-height: 130%;
+}
+section.lista{
+    margin: 10vw 0 10vw 0;
+}
+section.lista ul{
+    display: flex;
+    text-align: center;
+    margin: 5vw 10vw 5vw 10vw;
+    justify-content: space-between;
+}
+section.lista ul li{
+    width: 25%;
+}
+section.lista ul li span{
+    font-size: 3rem;
+    color:#3B8686
+}
+section.lista ul li h3{
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+section.lista ul li p{
+    color: #747474;
+    margin: 0 0 20px 0;
+    line-height: 120%;
+}
+section.lista ul li a{
+    background-color: #3B8686;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+}
+section.mulher{
+    background: linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.5)), url(../scr/back-numeros.png) no-repeat center center;
+    background-size: cover;
+    padding: 5vw 10vw 5vw 10vw;
+    line-height: 350%;
+
+}
+section.mulher ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+section.mulher ul li{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 600;
+}
+section.possibilidade div.lista{
+    display: flex;
+    margin: 5vw 10vw 5vw 10vw;
+    justify-content: space-between;
+}
+section.possibilidade h2{
+    color: #0B486B;
+    font-size: 2.8rem;
+    margin:  0 0 2vw 0;
+}
+section.possibilidade p.texto{
+    font-size: 1.3rem;
+    color: #747474;
+    padding: 0 0;
+}
+section.possibilidade p a{
+    background-color: #0B486B;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    margin: 1vw 0 0 0;
+}
+/*==============================================
+                    Rodapé
+==============================================*/
+footer{
+    background-color: #3B8686;
+    padding: 5vw 10vw 2vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+footer div.social ul{
+    display: flex;
+}
+footer div.social ul li{
+    margin: 0 0.8vw 1.5vw 0;
+    font-size: 2vw;
+}
+footer div.social{
+    font-size: 1.2rem;
+}
+footer div.contato {
+    font-size: 1.2rem;
+    line-height: 140%;
+}
+footer div.contato h2{
+    font-weight: 600;
+    margin: 0 0 1vw 0;
+}
+footer div.contato p span{
+    margin: 0 1vw 0 0;
+}
+footer div.home ul li{
+    margin: 0 0 1.4vw 0;
+    text-align: right;
+    font-size: 1.1rem;
 }
