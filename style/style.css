@@ -3,8 +3,7 @@
 ==============================================*/
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(13
-    x + 0.390625vw);
+    font-size: calc(13px + 0.390625vw);
 }
 a{
     color: white;
